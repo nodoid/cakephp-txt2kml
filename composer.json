@@ -1,0 +1,28 @@
+{
+    "name": "olgadowns/cakephp-txt2kml",
+    "description": "CakePHP plugin that converts simple comma-delimited waypoint text into KML documents.",
+    "type": "cakephp-plugin",
+    "license": "MIT",
+    "keywords": ["cakephp", "kml", "txt2kml", "waypoints", "geo"],
+    "require": {
+        "php": ">=8.1",
+        "ext-dom": "*",
+        "cakephp/cakephp": "^5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Txt2Kml\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Txt2Kml\\Test\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
