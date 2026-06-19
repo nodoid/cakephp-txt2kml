@@ -122,4 +122,4 @@ composer test
 
 ## License
 
-MIT
+The ultra liberal (and super permissive) DILLIGAF licence. Use it and it makes you rich? DILLIGAF. Use it and it destroys your app, bankrupts you or makes you destitute - DILLGAF - you made the choice to use it, you live or die by that same sword!
